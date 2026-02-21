@@ -1,5 +1,5 @@
 ---
-name: java-modernizer
+name: modern-java
 description: Transforms legacy Java code to modern idioms. Use when migrating Java versions, converting verbose POJOs/DTOs to records, platform threads to virtual threads, for-loops to streams, anonymous classes to lambdas, or when a codebase targets Java 11-25 but uses older patterns. Version-aware (Java 8-25), framework-smart (Spring Boot, Quarkus, Micronaut), detects version from pom.xml or build.gradle automatically.
 ---
 

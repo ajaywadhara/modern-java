@@ -1,12 +1,12 @@
-# java-modernizer
+# modern-java
 
 > Your `build.gradle` says Java 21. Your code still says 2011.
 > One skill. Your entire codebase, caught up automatically.
 
-**java-modernizer** scans your Java project, detects outdated patterns, and transforms them to modern idioms — version-aware, framework-smart, zero configuration. It reads your build file, loads only what's relevant for your Java version, and shows you exactly what changed and why.
+**modern-java** scans your Java project, detects outdated patterns, and transforms them to modern idioms — version-aware, framework-smart, zero configuration. It reads your build file, loads only what's relevant for your Java version, and shows you exactly what changed and why.
 
 ```bash
-npx skills@1.4.1 add ajaywadhara/java-modernizer
+npx skills@1.4.1 add ajaywadhara/modern-java
 ```
 
 ---
@@ -173,7 +173,7 @@ Lines Saved:     ~320 (14%)
 ## Install
 
 ```bash
-npx skills@1.4.1 add ajaywadhara/java-modernizer
+npx skills@1.4.1 add ajaywadhara/modern-java
 ```
 
 Or place `SKILL.md` in your project root and load it with your AI agent.
