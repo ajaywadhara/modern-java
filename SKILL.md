@@ -99,13 +99,18 @@ For each pattern found:
 
 ### Step 5: Generate Report
 
+Write the report to **`MODERNIZATION-REPORT.md` in the project root** (same directory as `pom.xml` or `build.gradle`). Always write the file — do not only print to the conversation.
+
 ```
 ## Modernization Report
 
-**Project Version:** Java 21
+**Project:** my-app
+**Java Version:** Java 21
+**Spring Boot:** 3.4.1
 **Files Scanned:** 47
 **Patterns Found:** 23
-**Code Reduced:** 156 lines (12%)
+**Lines Saved:** ~156 (12%)
+**Report saved to:** MODERNIZATION-REPORT.md
 
 ### Transformations Applied
 
@@ -115,6 +120,9 @@ For each pattern found:
 | UserService.java | for loop → Stream | -12 |
 | ApiClient.java | HttpURLConnection → HttpClient | -28 |
 ```
+
+After writing the file, tell the user:
+> "Report saved to `MODERNIZATION-REPORT.md` in your project root."
 
 ---
 
