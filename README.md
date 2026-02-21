@@ -5,8 +5,8 @@
 
 **java-modernizer** scans your Java project, detects outdated patterns, and transforms them to modern idioms — version-aware, framework-smart, zero configuration. It reads your build file, loads only what's relevant for your Java version, and shows you exactly what changed and why.
 
-```
-npx skills add <your-repo>/java-modernizer
+```bash
+npx skills@1.4.1 add ajaywadhara/java-modernizer
 ```
 
 ---
@@ -173,12 +173,28 @@ Lines Saved:     ~320 (14%)
 ## Install
 
 ```bash
-npx skills add <owner>/<repo>
+npx skills@1.4.1 add ajaywadhara/java-modernizer
 ```
 
 Or place `SKILL.md` in your project root and load it with your AI agent.
 
 **Works with:** Claude Code, Cursor, Cline, and any agent that supports the [Agent Skills](https://skills.sh) standard.
+
+> The `skills` CLI is published by [vercel-labs/skills](https://github.com/vercel-labs/skills).
+> Pinning to `@1.4.1` ensures you run a verified version.
+
+---
+
+## Security
+
+This skill contains **only markdown and Java code examples** — no executable scripts, no network calls, no dependencies, and no data collection.
+
+- **Read scope:** Scans `.java` files and build descriptors (`pom.xml`, `build.gradle`, `*.toml`) in the current project
+- **Write scope:** Suggests transformations; applies them only when you approve
+- **No outbound calls:** The skill itself makes no network requests
+- **No secrets accessed:** Does not read environment variables, credentials, or system files
+
+Audited by [Agent Trust Hub](https://skills.sh/audits) · [Socket](https://socket.dev) · [Snyk](https://snyk.io)
 
 ---
 
